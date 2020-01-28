@@ -11,7 +11,7 @@ Repositório contendo todos os arquivos durante a minha trajetória no Bootcamp 
 Pasta com os arquivos contendo minhas anotacões e os desafios da **primeira parte** do Bootcamp LaunchBase da Rocketseat, o repositório que contém os enunciados dos desafios pode ser encontrado [aqui](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01).
 
 O que foi aprendido:
-- Básico de JavaScript, functions, variables, etc.
+- Básico de JavaScript, functions, variables, arrays, etc.
 
 -----
 ### 2. Iniciando no Front-end
@@ -20,3 +20,4 @@ Pasta com os arquivos os desafios da **segunda parte** do Bootcamp LaunchBase da
 O que foi aprendido:
 - Conceitos Front-end/Back-end, Cliente/Servidor, etc.
 - HTML, CSS
+- Imports, Fonts, Favicons, tags, classes, ids, etc.

@@ -1,0 +1,115 @@
+@import "https://fonts.googleapis.com/css?family=Roboto&display=swap";
+
+:root
+{
+    --color-green: #50fa7b;
+}
+
+*
+{
+    margin:0;
+    padding:0;
+    border:0
+}
+
+body
+{
+    background: #282a36;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+header
+{
+    padding: 30px;
+    border-bottom: 1px solid #333;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+header div
+{
+    text-align: center;
+}
+
+.links a
+{
+    line-height: 28px;
+    margin: 0px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.links a:hover
+{
+    color: var(--color-green);
+    transition: color 200ms;
+}
+
+#wrapper
+{
+    text-align: center;
+    padding: 32px;
+}
+
+#wrapper ul li
+{
+    display: table;
+    margin: 5px auto 5px;
+}
+
+#wrapper img
+{
+    border-radius: 50%;
+    border: 4px solid var(--color-green);
+}
+
+#wrapper h1
+{
+    font-size: 35px;
+    line-height: 45px;
+    margin: 10px 0px 80px;
+    font-weight: bold;
+}
+
+#wrapper h2
+{
+    font-size: 19px;
+    margin: 35px 0px 15px;
+}
+
+#wrapper h5
+{
+    max-width: 900px;
+    margin: 25px auto;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.techs li
+{
+    margin: 5px;
+    font-size: 20px;
+}
+
+.links-footer
+{
+    margin-top: 100px;
+}
+
+.links-footer a
+{
+    line-height: 28px;
+    margin: 35px 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-bottom: 1px solid transparent;
+}
+
+.links-footer a:hover
+{
+    border-bottom: 1px solid var(--color-green);
+    color: var(--color-green);
+    transition: 700ms;
+}

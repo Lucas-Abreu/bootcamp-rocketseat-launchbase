@@ -7,7 +7,7 @@
 Bootcamp LaunchBase - Rocketseat Aulas & Exercícios
 </h3>
 <h6 align="center">
- Repositório com os arquivos contendo minhas anotacões e os desafios da primeira parte do Bootcamp LaunchBase da Rocketseat, o repositório que contém os enunciados dos desafios pode ser encontrado [aqui](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01).
+ Repositório com os arquivos contendo minhas anotacões e os desafios da primeira parte do Bootcamp LaunchBase da Rocketseat, o repositório que contém os enunciados dos desafios pode ser encontrado [aqui](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01)
  
 </h6>
-----
+--------

@@ -1,4 +1,5 @@
 @import "https://fonts.googleapis.com/css?family=Roboto&display=swap";
+@import "https://fonts.googleapis.com/css?family=Montserrat&display=swap";
 
 :root
 {
@@ -58,6 +59,18 @@ header div
     margin: 5px auto 5px;
 }
 
+#wrapper ul
+{
+    margin: 125px auto 25px;
+}
+
+.techs li
+{
+    color: var(--color-green);
+    margin: 5px;
+    font-size: 20px;
+}
+
 #wrapper img
 {
     border-radius: 50%;
@@ -68,33 +81,24 @@ header div
 {
     font-size: 35px;
     line-height: 45px;
-    margin: 10px 0px 80px;
+    margin: 35px 0px 80px;
     font-weight: bold;
-}
-
-#wrapper h2
-{
-    font-size: 19px;
-    margin: 35px 0px 15px;
 }
 
 #wrapper h5
 {
     max-width: 900px;
-    margin: 25px auto;
+    margin: 75px auto;
     font-size: 14px;
     font-weight: lighter;
-}
+    font-family: 'Montserrat', sans-serif;
+    opacity: 0.8;
 
-.techs li
-{
-    margin: 5px;
-    font-size: 20px;
 }
 
 .links-footer
 {
-    margin-top: 100px;
+    margin-top: 105px;
 }
 
 .links-footer a

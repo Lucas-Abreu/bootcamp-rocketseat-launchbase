@@ -59,7 +59,7 @@ header div
 #wrapper
 {
     text-align: center;
-    padding: 32px;
+    padding: 32px 32px 0px;
 }
 
 #wrapper ul li
@@ -70,7 +70,7 @@ header div
 
 #wrapper ul
 {
-    margin: 125px auto 25px;
+    margin: 55px auto 35px;
 }
 
 .techs li
@@ -90,15 +90,16 @@ header div
 {
     font-size: 35px;
     line-height: 45px;
-    margin: 35px 0px 80px;
+    margin: 35px 0px 50px;
     font-weight: bold;
 }
 
 #wrapper h5
 {
     max-width: 900px;
-    margin: 75px auto;
+    margin: 25px auto 10px;
     font-size: 14px;
+    line-height: 24px;
     font-weight: lighter;
     font-family: 'Montserrat', sans-serif;
     opacity: 0.8;
@@ -107,13 +108,13 @@ header div
 
 .links-footer
 {
-    margin-top: 68px;
+    margin: 45px auto 10px;
 }
 
 .links-footer a
 {
     line-height: 28px;
-    margin: 35px 10px;
+    margin: 25px 10px 0px;
     text-decoration: none;
     font-size: 20px;
     color: white;
@@ -131,7 +132,7 @@ header div
 {
     width: 1100px;
     height: 600px;
-    margin: 200px auto;
+    margin: 100px auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 40px;
@@ -175,12 +176,12 @@ header div
 .number01
 {   
     display: grid;
+    align-items: center;
+    justify-content: center;
     color: var(--rocket-purple);
     width: 48px;
     height: 48px;
     margin: 5px auto;
-    align-items: center;
-    justify-content: center;
     border: 2px solid var(--rocket-purple);
     border-radius: 50%;
 }
@@ -221,6 +222,7 @@ header div
 .card-content p
 {
     font-size: 15px;
+    line-height: 25px;
     text-align: center;
     font-weight: bold;
 }

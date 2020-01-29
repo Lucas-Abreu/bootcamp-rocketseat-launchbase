@@ -243,7 +243,7 @@ header div
     background-color: white;
     width: 90%;
     height: 90%;
-    margin: 5vh auto;
+    margin: 2% auto;
     position: relative;
 }
 
@@ -256,8 +256,32 @@ header div
     position: absolute;
 }
 
+.modal .maximize-modal
+{
+    color: black;
+    right: 35px;
+    top: 8px;
+    cursor: pointer;
+    position: absolute;
+}
+
 .modal-overlay.active
 {
     opacity: 1;
     visibility: visible;
+}
+
+.modal.maximize
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+iframe
+{
+    width: 100%;
+    height: 95%;
+    position: absolute;
+    top: 5%;
 }

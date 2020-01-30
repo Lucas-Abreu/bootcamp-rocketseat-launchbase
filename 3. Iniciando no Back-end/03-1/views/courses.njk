@@ -1,0 +1,52 @@
+{% extends 'layout.njk' %}
+
+{% block head %}
+    <title>Desafio 03-1 - Treinamentos</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+{% endblock head %}
+
+{% block content %}
+    <section class="cards">
+        <div class="card card1" id="starter">
+            <div class="card-content">
+                <p class="number01">01</p>
+                <img src="https://skylab.rocketseat.com.br/static/64c237ccff807c054339a62d53b4b402.svg">
+                <p>05 Módulos</p>
+                <p>Curso Gratuito</p>
+            </div>
+        </div>
+
+        <div class="card card2" id="launchbase">
+            <div class="card-content">
+                <p class="number02">02</p>
+                <img src="https://skylab.rocketseat.com.br/static/0828532024cb46921a6b5e941f8d788d.svg">
+                <p>11 Módulos</p>
+                <p>Curso Pago</p>
+            </div>
+        </div>
+
+        <div class="card card3" id="gostack">
+            <div class="card-content">
+                <p class="number03">03</p>
+                <img src="https://skylab.rocketseat.com.br/static/83a178a0653dab1d55e2ed7946465975.svg">
+                <p>?? Módulos</p>
+                <p>Curso Pago</p>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal-overlay">
+        <div class="modal">
+            <a class="maximize-modal">
+                <i class="material-icons">fullscreen</i>
+            </a>
+            <a class="close-modal">
+                <i class="material-icons">close</i>
+            </a>
+
+            <iframe></iframe>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+{% endblock content %}

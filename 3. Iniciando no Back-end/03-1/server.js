@@ -7,7 +7,8 @@ server.set('view engine','njk')
 
 server.use(express.static('public'))
 
-nunjucks.configure('views', {
+nunjucks.configure('views',
+{
     express: server
 })
 
@@ -20,6 +21,11 @@ server.get('/about', function(req, res)
 {
     res.render('about')
 })
+
+server.use(function(req, res)
+{
+    res.status(404).render("not-found");
+});
 
 server.listen(5000, function()
 {

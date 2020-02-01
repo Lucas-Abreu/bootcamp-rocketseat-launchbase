@@ -1,0 +1,336 @@
+@import "https://fonts.googleapis.com/css?family=Roboto&display=swap";
+@import "https://fonts.googleapis.com/css?family=Montserrat&display=swap";
+
+:root
+{
+    --color-green: rgb(4, 211, 97);
+    --rocket-purple: rgb(113, 89, 193);
+    --rocket-orange: rgb(253, 149, 31);
+}
+
+*
+{
+    margin:0;
+    padding:0;
+    border:0
+}
+
+body
+{
+    background-image: url('https://skylab.rocketseat.com.br/static/a4edba24f9a571dbb09c831694960cdf.png');
+    background-position-x: initial, initial;
+    background-position-y: initial, initial;
+    background-size: cover;
+    background-attachment: fixed;
+    background-origin: initial, initial;
+    background-clip: initial, initial;
+    background-color: rgb(11, 10, 13);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+header
+{
+    padding: 30px;
+    border-bottom: 1px solid #333;
+    background-color: rgb(10, 10, 10);
+}
+
+header div
+{
+    text-align: center;
+}
+
+.links a
+{
+    line-height: 28px;
+    margin: 0px 30px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.links a:hover
+{
+    color: var(--color-green);
+    transition: color 200ms;
+}
+
+span.upper
+{
+    text-transform: uppercase;
+}
+
+span.starter
+{
+    color: var(--rocket-purple);
+}
+
+span.launchbase
+{
+    color: var(--rocket-orange);
+}
+
+span.gostack
+{
+    color: var(--color-green);
+}
+
+
+#wrapper
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    text-align: center;
+    padding: 32px 32px 0px;
+}
+
+#wrapper ul li
+{
+    display: table;
+    margin: 5px auto 5px;
+}
+
+#wrapper ul
+{
+    margin: 55px auto 35px;
+}
+
+.techs li
+{
+    color: var(--color-green);
+    margin: 5px;
+    font-size: 20px;
+}
+
+#wrapper img#picture
+{
+    border-radius: 50%;
+    border: 4px solid var(--color-green);
+}
+
+#wrapper img#er404
+{
+    width: 100px;
+    margin: 16% 0% 0%;
+}
+
+#wrapper h1
+{
+    font-size: 35px;
+    line-height: 45px;
+    margin: 20px 0px 50px;
+    font-weight: bold;
+}
+
+#wrapper h1.desc
+{
+    margin: 10px 0px 10px;
+    font-weight: bold;
+}
+
+#wrapper h2
+{
+    opacity: 0.7;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#wrapper h5
+{
+    max-width: 900px;
+    margin: 25px auto 10px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
+    opacity: 0.8;
+}
+
+.links-footer
+{
+    margin: 45px auto 10px;
+}
+
+.links-footer a
+{
+    line-height: 28px;
+    margin: 25px 10px 0px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-bottom: 1px solid transparent;
+}
+
+.links-footer a:hover
+{
+    border-bottom: 1px solid var(--color-green);
+    color: var(--color-green);
+    transition: 700ms;
+}
+
+.cards
+{
+    width: 400px;
+    height: fit-content;
+    margin: 35px auto;
+}
+
+.main-cards
+{
+    width: 1100px;
+    height: 600px;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+}
+
+.card
+{
+    border-radius: 15px;
+    background-image: url('https://skylab.rocketseat.com.br/static/40a7d53e92496bfa7622792225a98d1c.png');
+    cursor: pointer;
+    background-color: black;
+}
+
+#starter:hover
+{
+    transform: scale(1.02);
+    border: 3px solid var(--rocket-purple);
+    transition: 500ms;
+}
+
+#launchbase:hover
+{
+    transform: scale(1.02);
+    border: 3px solid var(--rocket-orange);
+    transition: 500ms;
+}
+
+#gostack:hover
+{
+    transform: scale(1.02);
+    border: 3px solid var(--color-green);
+    transition: 500ms;
+}
+
+
+.card-content
+{
+    padding: 50px;
+}
+
+.number01
+{   
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    color: var(--rocket-purple);
+    width: 48px;
+    height: 48px;
+    margin: 5px auto;
+    border: 2px solid var(--rocket-purple);
+    border-radius: 50%;
+}
+
+.number02
+{   
+    display: grid;
+    color: var(--rocket-orange);
+    width: 48px;
+    height: 48px;
+    margin: 5px auto;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--rocket-orange);
+    border-radius: 50%;
+}
+
+.number03
+{   
+    display: grid;
+    color: var(--color-green);
+    width: 48px;
+    height: 48px;
+    margin: 5px auto;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--color-green);
+    border-radius: 50%;
+}
+
+.card-content img
+{
+    margin: 120px auto;
+    display: grid;
+    align-items: center;
+}
+
+.card-content p
+{
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.modal-overlay
+{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.modal
+{
+    background-color: white;
+    width: 90%;
+    height: 90%;
+    margin: 2% auto;
+    position: relative;
+}
+
+.modal .close-modal
+{
+    color: black;
+    right: 8px;
+    top: 8px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.modal .maximize-modal
+{
+    color: black;
+    right: 35px;
+    top: 8px;
+    cursor: pointer;
+    position: absolute;
+}
+
+.modal-overlay.active
+{
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal.maximize
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+iframe
+{
+    width: 100%;
+    height: 95%;
+    position: absolute;
+    top: 5%;
+}

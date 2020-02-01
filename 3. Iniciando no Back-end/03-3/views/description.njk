@@ -1,0 +1,24 @@
+{% extends 'layout.njk' %}
+
+{% block content %}
+
+    <div id="wrapper">
+        <h1 class="desc">{{'Bootcamp' if card.id == 'launchbase'}} {{'Bootcamp' if card.id == 'gostack'}} {{'Curso' if card.id == 'starter'}} <span class="upper {{card.id}}">{{card.id}}</span> da Rocketseat</h1>
+
+        <h5>{{card.description}}</h5>
+    
+        <section class="cards">
+            <div class="card {{card.card_class}}" id="{{card.id}}">
+                <div class="card-content">
+                    <p class="{{card.number_class}}">{{card.number}}</p>
+                    <img src="{{card.logo_url}}" alt="Logotipo do curso {{card.id}}">
+                    <p>{{card.modules}}</p>
+                    <p>{{card.price}}</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+    <script src="/scripts.js"></script>
+    
+{% endblock content %}

@@ -1,23 +1,23 @@
 {% extends 'layout.njk' %}
 
 {% block head %}
-    <title>Desafio 03-2 - Treinamentos</title>
+    <title>Desafio 03-3 - Treinamentos</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 {% endblock head %}
 
 {% block content %}
-    <section class="cards">
+    <section class="cards main-cards">
 
         {% for card in cards %}
 
-        <div class="card {{card.card_class}}" id="{{card.id}}">
-            <div class="card-content">
-                <p class="{{card.number_class}}">{{card.number}}</p>
-                <img src="{{card.logo_url}}" alt="Logotipo do curso {{card.id}}">
-                <p>{{card.modules}}</p>
-                <p>{{card.price}}</p>
+            <div class="card {{card.card_class}}" id="{{card.id}}">
+                <div class="card-content">
+                    <p class="{{card.number_class}}">{{card.number}}</p>
+                    <img src="{{card.logo_url}}" alt="Logotipo do curso {{card.id}}">
+                    <p>{{card.modules}}</p>
+                    <p>{{card.price}}</p>
+                </div>
             </div>
-        </div>
 
         {% endfor %}
 
@@ -36,5 +36,5 @@
         </div>
     </div>
 
-    <script src="scripts.js"></script>
+    <script src="/scripts.js"></script>
 {% endblock content %}

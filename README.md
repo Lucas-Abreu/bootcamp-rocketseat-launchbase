@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Launchbase" src="https://rocketseat-cdn.s3-sa-east-1.amazonaws.com/bootcamp-launchbase.png" width="250px" />
+    <img alt="Launchbase" src="https://storage.googleapis.com/golden-wind/bootcamp-launchbase/logo.png" width="250px" />
 </h1>
 
 ### Bootcamp LaunchBase - Rocketseat
@@ -29,3 +29,10 @@ Pasta com os arquivos os desafios da **terceira parte** do Bootcamp LaunchBase d
 O que foi aprendido:
 - Express, Node, Nodemon, Server
 - Nunjucks, Template Engine, Nunjucks layouts, etc.
+
+-----
+### 4. Controle de Academia
+Pasta com os arquivos os desafios da **terceira parte** do Bootcamp LaunchBase da Rocketseat, o repositório que contém os enunciados dos desafios pode ser encontrado [aqui](https://github.com/Rocketseat/bootcamp-launchbase-desafios-04/tree/master/desafios).
+
+O que foi aprendido:
+- [todo]

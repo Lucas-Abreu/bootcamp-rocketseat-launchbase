@@ -1,0 +1,14 @@
+{
+  "teachers": [
+    {
+      "id": 1,
+      "avatar_url": "http://google.com",
+      "name": "Lucas",
+      "birth": 942537600000,
+      "scholarship": "Ensino Médio Completo",
+      "type": "Presencial",
+      "area": "Portugues",
+      "since": 1581040051068
+    }
+  ]
+}

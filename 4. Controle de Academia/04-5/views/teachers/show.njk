@@ -39,7 +39,19 @@
             <div>{{teacher.since}}</div>
         </div>
 
-        <a class="button" href="/teachers/{{teacher.id}}/edit">Edit</a>
+        <div class="options">
+        
+            <a class="button" href="/teachers/{{teacher.id}}/edit">Edit</a>
+        
+            <form class="form-delete" method="POST" action="/teachers?_method=DELETE">
+            
+                <input type="hidden" name="id" value={{teacher.id}}>
+            
+                <button type="submit">Delete</button>
+            
+            </form>
+        
+        </div>
 
     </section>
 

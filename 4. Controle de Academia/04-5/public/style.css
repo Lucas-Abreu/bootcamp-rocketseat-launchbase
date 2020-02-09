@@ -175,8 +175,10 @@ a.button,
 button[type="submit"]
 {
     width: 100%;
+    height: 40px;
     padding: 12px;
     margin-top: 5px;
+    font-size: 13px;
     color: white;
     background-color: var(--achieve-blue);
     border-radius: 8px;
@@ -206,4 +208,11 @@ a.button
 .form-delete button[type="submit"]
 {
     background-color: lightcoral;
+}
+
+.options
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
 }

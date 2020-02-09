@@ -1,14 +1,3 @@
 {
-  "teachers": [
-    {
-      "id": 1,
-      "avatar_url": "http://google.com",
-      "name": "Lucas",
-      "birth": 942537600000,
-      "scholarship": "medio",
-      "type": "P",
-      "areas": "Portugues, Matemática",
-      "since": 1581277095032
-    }
-  ]
+  "teachers": []
 }

@@ -32,7 +32,14 @@ O que foi aprendido:
 
 -----
 ### 4. Controle de Academia
-Pasta com os arquivos os desafios da **terceira parte** do Bootcamp LaunchBase da Rocketseat, o repositório que contém os enunciados dos desafios pode ser encontrado [aqui](https://github.com/Rocketseat/bootcamp-launchbase-desafios-04/tree/master/desafios).
+Pasta com os arquivos os desafios da **quarta parte** do Bootcamp LaunchBase da Rocketseat, o repositório que contém os enunciados dos desafios pode ser encontrado [aqui](https://github.com/Rocketseat/bootcamp-launchbase-desafios-04/tree/master/desafios).
+
+Neste módulo foi desenvolvido um website de controle de Alunos e Professores, do zero.
+O site possui funcionalidades de armazenamento local de conteúdo, em um arquivo JSON.
+
+-----
+### 5. Persistindo Dados da Aplicação
+Pasta com os arquivos os desafios da **quinta parte** do Bootcamp LaunchBase da Rocketseat, o repositório que contém os enunciados dos desafios pode ser encontrado [aqui](https://github.com/Rocketseat/bootcamp-launchbase-desafios-05/tree/master/desafios).
 
 O que foi aprendido:
-- [todo]
+- SQL, PostgreSQL, shorthand ES6, etc.

@@ -45,7 +45,8 @@ module.exports = {
             month,
             year,
             iso: `${year}-${month}-${day}`,
-            birthDay: `${day}/${month}`
+            birthDay: `${day}/${month}`,
+            format: `${day}/${month}/${year}`
         }
     },
     grade: function(year){
@@ -67,6 +68,19 @@ module.exports = {
                 return 'Médio - 2o Ano'
             case '3B':
                 return 'Médio - 3o Ano'
+        }
+    },
+    education: function(level) {
+        switch(level)
+        {
+            case "medio":
+                return 'Ensino Médio Completo';
+            case "superior":
+                return 'Ensino Superior Completo';
+            case "mestrado":
+                return 'Mestrado';
+            case "Doutorado":
+                return 'Doutorado';
         }
     }
 }

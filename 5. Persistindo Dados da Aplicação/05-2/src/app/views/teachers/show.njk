@@ -17,26 +17,24 @@
         
         <div class="item">
             <div>Age</div>
-            <div>{{teacher.birth}}</div>
+            <div>{{teacher.birth_date}}</div>
         </div>
 
         <div class="item">
             <div>Scholarship</div>
-            <div>{{teacher.scholarship}}</div>
+            <div>{{teacher.education_level}}</div>
         </div>
 
         <div class="item">
             <div>Areas</div>
             <div>
-            {% for area in teacher.areas %}
-                <span>{{area}}</span>
-            {% endfor %}
+                <span>{{teacher.subjects_taught}}</span>
             </div>
         </div>
 
         <div class="item">
             <div>Since</div>
-            <div>{{teacher.since}}</div>
+            <div>{{teacher.created_at}}</div>
         </div>
 
         <div class="options">

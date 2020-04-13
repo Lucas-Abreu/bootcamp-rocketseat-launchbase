@@ -22,31 +22,31 @@
     <div>Birthdate</div>
     <input
         type="date"
-        name="birth"
-        value="{{teacher.birth}}"
+        name="birth_date"
+        value="{{teacher.birth_date}}"
     >
 </div>
 
 <div class="item">
     <div>Scholarship</div>
-    <select name="scholarship">
+    <select name="education_level">
         <option
             value="medio"
-            {% if teacher.scholarship == 'medio' %}
+            {% if teacher.education_level == 'medio' %}
             selected
             {% endif %}
             >Ensino Médio Completo
         </option>
         <option
             value="superior"
-            {% if teacher.scholarship == 'superior' %}
+            {% if teacher.education_level == 'superior' %}
             selected
             {% endif %}
             >Ensino Superior Completo
         </option>
         <option
             value="mestrado"
-            {% if teacher.scholarship == 'mestrado' %}
+            {% if teacher.education_level == 'mestrado' %}
             selected
             {% endif %}
             >Mestrado
@@ -66,9 +66,9 @@
     <span>
         <input
             type="radio"
-            name="type"
+            name="class_type"
             value="P"
-            {% if teacher.type == "P" %}
+            {% if teacher.class_type == "P" %}
             checked
             {% endif %}
             >Presencial
@@ -76,9 +76,9 @@
     <span>
         <input
             type="radio"
-            name="type"
+            name="class_type"
             value="ADS"
-            {% if teacher.type == "ADS" %}
+            {% if teacher.class_type == "ADS" %}
             checked
             {% endif %}
             >À Distancia
@@ -89,9 +89,9 @@
     <div>Areas</div>
     <input
         type="input"
-        name="areas"
+        name="subjects_taught"
         placeholder="Separe por vírgula as áreas de atuação"
-        value="{{teacher.areas}}"
+        value="{{teacher.subjects_taught}}"
     >
 </div>
 

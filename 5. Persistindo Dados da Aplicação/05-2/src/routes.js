@@ -1,10 +1,10 @@
 const express = require('express')
 const routes = express.Router()
 
-const teachers = require('./controllers/teachers')
-const students = require('./controllers/students')
+const teachers = require('./app/controllers/teachers')
+const students = require('./app/controllers/students')
 
-routes.get('/', teachers.redirect)
+routes.get('/', teachers.index);
 routes.get('/teachers', teachers.index)
 routes.post('/teachers', teachers.post)
 routes.put('/teachers', teachers.put)

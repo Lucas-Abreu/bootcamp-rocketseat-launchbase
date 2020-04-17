@@ -28,7 +28,7 @@ module.exports = {
             }
         }
 
-        Teacher.create(req.body, ( teacher ) => {
+        Teacher.create(req.body, () => {
 
             return res.redirect(`/teachers`)
             
